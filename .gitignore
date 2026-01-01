@@ -15,7 +15,6 @@ venv/
 # Large datasets
 data/inference_extraction.csv
 data/sentiment_score.csv
-data/brand_health_lookup.csv
 data/GrammarandProductReviews.csv
 dorothy.png
 image.png
