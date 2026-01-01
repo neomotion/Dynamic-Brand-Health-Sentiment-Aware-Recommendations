@@ -71,7 +71,7 @@ class HybridRecommender:
 
             # CALCULATE HYBRID SCORE
             # Scaling everything to a 0-1 range
-            final_score = (cf_pred / 5 * 0.8) + (health_score / 100 * 0.1) + (slope * 0.1)
+            final_score = (cf_pred / 5 * 0.6) + (health_score / 100 * 0.3) + (slope * 0.1)
 
             hybrid_predictions.append({
                 'product_name': product_info['name'],
