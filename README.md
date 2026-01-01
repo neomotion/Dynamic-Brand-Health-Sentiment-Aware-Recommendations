@@ -224,11 +224,11 @@ The final step of the project integrates all previous phases—Collaborative Fil
 
 To determine the final ranking of products, the system applies a weighted formula that balances three distinct signals:
 
-$$Hybrid\ Score = \left( CF\ Score \times 0.8 \right) + \left( Health\ Score\ Factor \times 0.1 \right) + \left( Trend\ Boost \times 0.1 \right)$$
+$$Hybrid\ Score = \left( CF\ Score \times 0.6 \right) + \left( Health\ Score\ Factor \times 0.3 \right) + \left( Trend\ Boost \times 0.1 \right)$$
 
-- CF Score (80%): The "Predicted Rating" from the SVD (Singular Value Decomposition) model. This remains the primary driver, ensuring the suggestion matches the user's personal historical taste.
+- CF Score (60%): The "Predicted Rating" from the SVD (Singular Value Decomposition) model. This remains the primary driver, ensuring the suggestion matches the user's personal historical taste.
 
-- Health Score Factor (10%): Derived from the Brand Health Lookup. It acts as a quality filter, boosting products from brands with verified positive sentiment and high recommendation rates.
+- Health Score Factor (30%): Derived from the Brand Health Lookup. It acts as a quality filter, boosting products from brands with verified positive sentiment and high recommendation rates.
 
 - Trend Boost (10%): Derived from the Market Trend Regression. It provides a final "nudge" for brands with Upward momentum and penalizes those with Downward slopes.
 
