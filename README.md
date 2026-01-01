@@ -261,7 +261,7 @@ cd Dynamic-Brand-Health-Sentiment-Aware-Recommendations
 
 **2. Rebuild the Image (Environment Preparation)**
 
-Since Docker images themselves are usually too large for Git, the user will "re-materialize" the image on their machine using your Dockerfile.
+Since Docker images themselves are usually too large for Git, the user will "re-materialize" the image on their machine using thr Dockerfile.
 
 docker build -t health-recommender .
 
