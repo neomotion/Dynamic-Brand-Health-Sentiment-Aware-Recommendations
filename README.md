@@ -1,4 +1,4 @@
-# Dynamic Brand Health & Sentiment-Aware Recommendations: Bridging Unstructured Reviews and Structured Ratings [Notebook](https://colab.research.google.com/drive/1axejRLp9mjtMgmWW7pk4gmWxELz9l4vC?usp=sharing)
+# Dynamic Brand Health & Sentiment-Aware Recommendations: Bridging Unstructured Reviews and Structured Ratings - [Notebook](https://colab.research.google.com/drive/1axejRLp9mjtMgmWW7pk4gmWxELz9l4vC?usp=sharing)
 
 # Overview
 
